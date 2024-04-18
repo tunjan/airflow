@@ -31,9 +31,8 @@ Airflow security model - user types
 
 The Airflow security model involves different types of users with varying access and capabilities:
 
-While - in smaller installations - all the actions related to Airflow can be performed by a single user,
-in larger installations it is apparent that there different responsibilities, roles and
-capabilities that need to be separated.
+While in smaller installations all Airflow-related actions can be performed by a single user,
+larger installations may require separate responsibilities, roles, and capabilities.
 
 This is why Airflow has the following user types:
 
