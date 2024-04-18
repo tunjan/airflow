@@ -81,8 +81,8 @@ constraint files to enable reproducible installation, so using ``pip`` and const
 
    Visit ``localhost:8080`` in your browser and log in with the admin account details shown in the terminal. Enable the ``example_bash_operator`` DAG in the home page.
 
-Upon running these commands, Airflow will create the ``$AIRFLOW_HOME`` folder
-and create the "airflow.cfg" file with defaults that will get you going fast.
+Upon running these commands, Airflow will create the $AIRFLOW_HOME folder
+and generate the 'airflow.cfg' file with defaults that will get you going fast.
 You can override defaults using environment variables, see :doc:`/configurations-ref`.
 You can inspect the file either in ``$AIRFLOW_HOME/airflow.cfg``, or through the UI in
 the ``Admin->Configuration`` menu. The PID file for the webserver will be stored
@@ -101,8 +101,8 @@ As you grow and deploy Airflow to production, you will also want to move away
 from the ``standalone`` command we use here to running the components
 separately. You can read more in :doc:`/administration-and-deployment/production-deployment`.
 
-Here are a few commands that will trigger a few task instances. You should
-be able to see the status of the jobs change in the ``example_bash_operator`` DAG as you
+Here are a few commands that will trigger task instances. You should
+be able to see the status of these tasks change in the 'example_bash_operator' DAG as you
 run the commands below.
 
 .. code-block:: bash
